@@ -1,0 +1,35 @@
+@keyframes checkbefore {
+    0% {
+      opacity: 0;
+      transform: translate(5.75px, 2px);
+      box-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(5.75px, 2px) rotate(-45deg);
+      box-shadow: 0 0 2px $color-secondary;
+    }
+  }
+  @keyframes checkafter {
+    0% {
+      opacity: 0;
+      transform: translate(5.75px, 2px);
+      box-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(5.75px, 2px) rotate(45deg);
+      box-shadow: 0 0 2px $color-secondary;
+    }
+  }
+  @keyframes shadow{
+    0% {
+      box-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    }
+    50% {
+      box-shadow: 0 0 2px $color-secondary;
+    }
+    100% {
+      box-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    }
+  }
